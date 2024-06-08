@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="login" class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="home" class="container hidden">
+        <h2>Home</h2>
+        <p>Welcome to the home page!</p>
+        <button id="logoutBtn">Logout</button>
+        <div id="notesSection">
+            <h3>Notes</h3>
+            <form id="noteForm">
+                <textarea id="note" rows="4" placeholder="Write your note here..."></textarea>
+                <button type="submit">Submit Note</button>
+            </form>
+            <div id="notesDisplay"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+ -->
